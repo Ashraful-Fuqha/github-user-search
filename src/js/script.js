@@ -27,7 +27,7 @@ searchInput.addEventListener('input', function (){
 async function getGitHubUser(username){
     const html_url = `https://api.github.com/users/${username}`;
 
-    const token = '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'
+    const token = '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'
 
     const fetch_response = await fetch(html_url,{
         headers:{'Authorization': `token ${token}`}
