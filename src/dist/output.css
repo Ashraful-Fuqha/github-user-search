@@ -2589,32 +2589,32 @@ video {
   text-align: center;
 }
 
-@media (max-width: 320px) {
-  .max-\[320px\]\:w-\[100\%\] {
+@media (max-width: 420px) {
+  .max-\[420px\]\:w-\[100\%\] {
     width: 100%;
   }
 
-  .max-\[320px\]\:w-\[15rem\] {
+  .max-\[420px\]\:w-\[15rem\] {
     width: 15rem;
   }
 
-  .max-\[320px\]\:w-\[90\%\] {
+  .max-\[420px\]\:w-\[90\%\] {
     width: 90%;
   }
 
-  .max-\[320px\]\:flex-col {
+  .max-\[420px\]\:flex-col {
     flex-direction: column;
   }
 
-  .max-\[320px\]\:self-center {
+  .max-\[420px\]\:self-center {
     align-self: center;
   }
 
-  .max-\[320px\]\:bg-mobile {
+  .max-\[420px\]\:bg-mobile {
     background-image: url("../../assets/images/mobile.jpg");
   }
 
-  .max-\[320px\]\:text-left {
+  .max-\[420px\]\:text-left {
     text-align: left;
   }
 }
