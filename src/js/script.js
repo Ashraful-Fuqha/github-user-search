@@ -27,14 +27,14 @@ searchInput.addEventListener('input', function (){
 async function getGitHubUser(username){
     const html_url = `https://api.github.com/users/${username}`;
 
-    const token = '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'
+    // const token = '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'
 
-    const fetch_response = await fetch(html_url,{
-        headers:{'Authorization': `token ${token}`}
-    })
+    const fetch_response = await fetch(html_url)
+        // headers:{Authorization: `token ${token}`}
+    // })
     const userData = await fetch_response.json()
     // users.push(...userData)
-    console.table(userData)
+    console.log(userData)
     createUserProfile(userData)
 }
 
