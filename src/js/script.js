@@ -18,7 +18,7 @@ window.addEventListener('load',(e) => {
     if(searchInput.value.trim === '')
         searchInput.innerHTML=''
 
-    getGitHubUser(this.value)
+    getGitHubUser('Ashraful-Fuqha')
 })
 searchInput.addEventListener('input', function (){
     getGitHubUser(this.value)
@@ -27,7 +27,7 @@ searchInput.addEventListener('input', function (){
 async function getGitHubUser(username){
     const html_url = `https://api.github.com/users/${username}`;
 
-    const token = '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'
+    const token = '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'
 
     const fetch_response = await fetch(html_url,{
         headers:{'Authorization': `token ${token}`}
